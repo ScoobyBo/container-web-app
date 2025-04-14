@@ -70,18 +70,18 @@ Healthcheck для мониторинга состояния PostgreSQL
 
 1. Клонируйте репозиторий:
 
-   git clone https://github.com/ScoobyBo/container-web-app.git
-   cd [Директория_проекта]
+   - git clone https://github.com/ScoobyBo/container-web-app.git
+   - cd [Директория_проекта]
 
 2. Измените под себя как минимум следующие файлы:
     - domain.conf
     - post-receive (а так же перенесите его в ./repo.git/hooks/)
 
 3. Запустите проект через Docker Compose:
-    docker-compose up --build
+    - docker-compose up --build
 
 4. После запуска проект будет доступен по адресу:
-    http://your_domain/  | 80 port
+    - http://your_domain/  | 80 port
 
    А так же, если настроите https:
-    https://your_domain/ | 443 port
+    - https://your_domain/ | 443 port
