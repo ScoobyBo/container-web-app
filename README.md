@@ -18,7 +18,6 @@
 - CI/CD: Git hooks
 
 🔧 Архитектура проекта
-Copy
 container-web-app/                                                                                                                
 │                                                                                                                                 
 ├── backend/                                                                                                                      
